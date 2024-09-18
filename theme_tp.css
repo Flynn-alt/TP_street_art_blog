@@ -1,0 +1,265 @@
+/* Le code CSS de la démo */
+
+.mali-semibold {
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: "Source Sans 3"; 
+    padding: 0;
+    margin: 0;
+}
+.header {
+    text-align: center;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width:1100px; 
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:6rem;
+    
+}
+nav {
+    font-family: "Mali";
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.img-nav {
+    max-width: 30rem;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    
+}
+li {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    
+
+}
+a {
+    text-decoration: none;
+}
+figure {
+    text-align: center;
+}
+
+.bouton-accueil {
+    text-align: center;
+    background-color:#ededed;
+    padding: 1rem;
+    box-shadow: -3px 3px #037d9d;
+}
+
+.box {
+    background-image: url(./images/banner1.jpg);
+    margin:0;
+    margin-top:6rem;
+    background-size: cover;
+    padding: 6.25rem;
+}
+
+.txt-over {
+    background-color: rgba( 255, 255, 255, 0.7);
+}
+
+h1 {
+    font-family: "Mali";
+    font-size: 3rem;
+    color:#db0059;
+    font-weight: bold;
+}
+
+img {
+    margin: 0;
+    padding:0;
+    height:auto;
+    width:100%;
+}
+.container-citation {
+    padding:0;
+    width:50%;
+    justify-content: center;
+}
+
+blockquote {
+    font-family: "Mali";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ededed;
+    box-shadow: -3px 3px #037d9d;
+}
+
+.auteur {
+    font-family: "Source Sans 3";
+    margin:0;
+    text-align:center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+h2 {
+    display:flex;
+    font-size: 2.8rem;
+    font-family: "Mali";
+    justify-content:center;
+    align-items:center;
+}
+
+.actu {
+    margin: 3rem;
+   padding-top: 2rem;
+   padding-left: 2rem;
+   padding-bottom: 2rem;
+   padding-right: 2rem;
+    background-color:#ededed;
+    height:auto;
+    text-align: left;
+
+}
+
+.titre-urban-interview {
+    margin:0;
+    padding:0;
+}
+
+h3 {
+    margin:0;
+    font-size:2rem;
+    font-family: "Mali";
+    color:#db0059;
+}
+
+.img-art {
+    height:auto;
+    justify-content:stretch;
+}
+
+.date {
+    margin:0;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-style: italic;
+
+}
+
+.suite{
+    display:flex;
+    padding: 0.1rem;
+    justify-content: right;
+
+}
+
+.bouton {
+    display:block;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: #1d1e3d;
+    padding: 0 1.5rem;
+}
+.fa-regular {
+    font-size:4rem;
+    color: #037d9d;
+}
+.fa-solid {
+    font-size:4rem;
+    color: #db0059;
+}
+.newsletter {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    background-color: #db0059;
+    height:auto;
+    
+}
+.titre-newsletter {
+    color:white;
+    font-family: "Mali";
+    font-size:2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 980px) and (min-width:780px){
+    .header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header figure {
+        width: 25%;
+    }
+    
+    .header nav {
+        width: 75%;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav ul li {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .header {
+       display: flex;
+       
+    }
+    
+    .header figure {
+        width: 25%;
+    }
+    
+    .header nav {
+        width: 75%;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    .flex-colonnes {
+        display: flex;
+        width:980px;
+        
+    }
+    .actu {
+        width:200px;
+    }
+}

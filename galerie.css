@@ -1,0 +1,228 @@
+.mali-semibold {
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: "Source Sans 3"; 
+    padding: 0;
+    margin: 0;
+    /*background-color: #ededed;*/
+}
+.container {
+    max-width:1100px; 
+    margin-right: auto;
+    text-align: center;
+    margin-top:6rem;
+    justify-content:center;
+
+}
+img {
+    margin: 0;
+    padding:0;
+}
+figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type:none;
+    padding: 1rem;
+}
+
+nav, q, h1, h2, h3 {
+    font-family: "Mali";
+}
+
+nav {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Mali";
+}
+    h1 {
+        font-size: 3rem;
+    }
+
+    li {
+        font-size:2.4rem;
+    }
+
+    q {
+        font-size: 2.5rem;
+    }
+
+    .auteur {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    
+    .date {
+        font-size: 1.4rem;
+    }
+
+a {
+    text-decoration: none;
+}
+
+/************************************
+Généralité
+************************************/
+
+nav a {
+    color: #1d1e3d;
+    font-weight:bold;
+}
+
+nav a:hover {
+    padding:1rem;
+    border-color: #1d1e3d;
+    border-bottom: 2px;
+    border-left: 2px;
+    background-color: #ededed;
+    width:100%
+}
+
+.box {
+    background-image: url(./images/banner1.jpg);
+    width:auto;
+    margin:0;
+    margin-top:6rem;
+    background-size: cover;
+    padding: 6.25rem;
+}
+.txt-over {
+    background-color: rgba( 255, 255, 255, 0.7);
+    padding: 1rem 1rem;
+    color: #db0059;
+}
+
+/***********************************
+GALERIE
+**********************************/
+/**/
+.img-galerie > div {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin:0 2rem;
+  
+}
+
+
+/***********************************
+RESPONSIVE
+**********************************/
+
+@media screen and (min-width: 780px) {
+    .header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header figure {
+        width: 25%;
+    }
+    
+    .header nav {
+        width: 75%;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    .img-galerie {
+        max-width:1100px;
+        margin: 0 1rem;
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap:10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .img-galerie-item1 {
+        grid-column: 1/4;
+        grid-row:1;
+  
+    }
+    .img-galerie-item2 {
+      
+    }
+    .img-galerie-item3 {
+      
+    }
+    .img-galerie-item4 {
+      
+    }
+    .img-galerie-item5 {
+      
+    }
+    .img-galerie-item6 {
+      
+    }
+    .img-galerie-item7 {
+      
+    }
+    .img-galerie-item8 {
+      
+    }
+    .img-galerie-item9 {
+      
+    }
+    .img-galerie-item10 {
+      
+    }
+    .img-galerie-item11 {
+      
+    }
+    .img-galerie-item12 {
+      
+    }
+    .img-galerie-item13 {
+      
+    }
+    .img-galerie-item14 {
+      
+    }
+    .img-galerie-item15 {
+      
+    }
+    .img-galerie-item16 {
+      
+    }
+    .img-galerie-item17 {
+      
+    }
+}
